@@ -1,0 +1,624 @@
+@font-face {
+    font-family: SF-Pro-Text-light;
+    src: url(./sf-pro-text_light.ttf);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: SF-Pro-Text-regular;
+    src: url(./sf-pro-text_regular.ttf);
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: SF-Pro-Text-bold;
+    src: url(./sf-pro-text_semibold.ttf);
+    font-weight: 900;
+  }
+  @font-face {
+    font-family: SF-Pro-Icon;
+    src: url(./sf-pro-icons_light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy-semibold;
+
+}
+html,body{
+height: 100%;
+width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:#fff;
+    position: relative;
+}
+#navbar{
+    height: 50px;
+    padding: 0 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#nav-prt1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#nav-prt1 h4{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: SF-Pro-Text-regular;
+}
+
+#nav-prt1 i{
+    color: #fff;
+    font-weight: 600;
+}
+.AddOne-page{
+    height: 90%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bt/images/heroes/ipad-mini/hero_ipad_mini__fk2en53osgyi_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.AddOne-page-collection{
+    text-align: center;
+    padding: 40px 100px 0 0;
+}
+.AddOne-page-collection h1{
+    font-family: SF-Pro-Text-bold;
+    font-size: 55px;
+    letter-spacing: -3px;
+}
+.AddOne-page-collection p{
+    font-family: SF-Pro-Text-regular;
+    font-size: 27px;
+    padding-bottom: 15px;
+}
+.AddOne-page-collection .btn-1{
+    font-size: 17px;
+    padding: 12px 26px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    background-color: #0071E3;
+    font-family: SF-Pro-Text-regular;
+}
+.AddOne-page-collection .btn-2{
+    font-size: 17px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    color: #2997FF;
+    border: solid 1px #2997FF;
+    background-color: transparent;
+    font-family: SF-Pro-Text-regular;
+}
+.AddOne-page-collection button:hover{
+    color: #ffff;
+    background-color: blue;
+}
+.AddOne-page h6{
+    padding: 24% 60px 0 0;
+    font-family: SF-Pro-Text-regular;
+    font-size: 13px;
+    color: #8A8A8E;
+}
+.index-page{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bt/images/heroes/iphone-16-pro/hero_iphone16pro_avail__fnf0f9x70jiy_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.index-page header{
+    text-align: center;
+    padding-top: 50px;
+    color: #ffff;
+}
+.index-page header h1{
+    font-size: 50px;
+    font-family: SF-Pro-Text-bold;
+}
+.index-page header h3{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: SF-Pro-Text-regular;
+}
+.index-page footer{
+   padding-top: 28%;
+   text-align: center;
+}
+.index-page footer .btn-1{
+   font-size: 17px;
+   padding: 12px 26px;
+   border-radius: 25px;
+   border: none;
+   color: #fff;
+   background-color: #0071E3;
+   font-family: SF-Pro-Text-regular;
+}
+.index-page footer .btn-2{
+    font-size: 17px;
+    padding: 12px 18px;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    color: #2997FF;
+    border: solid 1px #2997FF;
+    background-color: transparent;
+    font-family: SF-Pro-Text-regular;
+ }
+ .index-page footer button:hover{
+    color: #ffff;
+    background-color: blue;
+ }
+.index-page footer p{
+   color: #918e8e;
+   font-size: 14px;
+   padding-left: 13px;
+   font-family: SF-Pro-Text-regular;
+}
+.second-page{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bt/images/heroes/iphone-16/hero_iphone16_avail__euwzls69btea_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.second-page header{
+    text-align: center;
+    padding-top: 50px;
+    color: #ffff;
+}
+.second-page header h1{
+    font-size: 50px;
+    font-family: SF-Pro-Text-bold;
+}
+.second-page header h3{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: SF-Pro-Text-regular;
+}
+.second-page footer{
+   padding-top: 28%;
+   text-align: center;
+}
+.second-page footer .btn-1{
+   font-size: 17px;
+   padding: 12px 26px;
+   border-radius: 25px;
+   border: none;
+   color: #fff;
+   background-color: #0071E3;
+   font-family: SF-Pro-Text-regular;
+}
+.second-page footer .btn-2{
+    font-size: 17px;
+    padding: 12px 18px;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    color: #0066CC;
+    border: solid 1px #0066CC;
+    background-color: transparent;
+    font-family: SF-Pro-Text-regular;
+}
+.second-page footer button:hover{
+    color: #ffff;
+    background-color: blue;
+ }
+.second-page footer p{
+   color: #6b6767;
+   padding-left: 10px;
+   font-size: 14px;
+   font-family: SF-Pro-Text-regular;
+}
+.third-page{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bt/images/heroes/apple-watch-series-10/hero_apple_watch_series_10_avail_lte__esu66gaw6dci_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+}
+.third-page img{
+  height: 70px; 
+}
+.third-page p{
+    padding: 10px 0px 15px 15px;
+    font-size: 25px;
+    font-family: SF-Pro-Text-light;
+}
+.third-page .btn-1{
+    margin-left: 15px;
+    font-size: 17px;
+    padding: 12px 26px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    background-color: #0071E3;
+    font-family: SF-Pro-Text-regular;
+ }
+ .third-page .btn-2{
+     margin-left: 15px;
+     font-size: 17px;
+     padding: 12px 18px;
+     border-radius: 25px;
+     margin-left: 15px;
+     margin-bottom: 25px;
+     color: #0066CC;
+     border: solid 1px #0066CC;
+     background-color: transparent;
+     font-family: SF-Pro-Text-regular;
+ }
+ .third-page button:hover{
+     color: #ffff;
+     background-color: blue;
+  }
+#fourth-page{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.fourth-page-div1{
+    height: 100%;
+    width: 48%;
+    background-image: url(https://www.apple.com/in/home/promos/apple-watch-series-9/images/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.fourth-page-collection1{
+    text-align: center;
+    padding-top: 50px;
+}
+.fourth-page-collection1 img{
+    margin-left: 13px;
+}
+.fourth-page-collection1 p{
+    font-size: 18px;
+    font-family: SF-Pro-Text-regular;
+    color: #ffff;
+    padding: 10px 0 15px 20px;
+}
+.fourth-page-collection1 .btn-1{
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    background-color: #0071E3;
+    font-family: SF-Pro-Text-regular;
+}
+.fourth-page-collection1 .btn-2{
+     margin-left: 15px;
+     font-size: 17px;
+     padding: 7px 18px;
+     border-radius: 25px;
+     margin-left: 7px;
+     margin-bottom: 25px;
+     color: #0066CC;
+     border: solid 1px #0066CC;
+     background-color: transparent;
+     font-family: SF-Pro-Text-regular;
+}
+.fourth-page-collection1 button:hover{
+     color: #ffff;
+     background-color: blue;
+}
+.fourth-page-div2{
+    height: 100%;
+    width: 48%;
+    background-image: url(https://www.apple.com/v/home/bt/images/promos/airpods-4/promo_airpods_4_avail__bl22kvpg6ez6_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fourth-page-collection2{
+    text-align: center;
+    padding-top: 55%;
+}
+.fourth-page-collection2 h1{
+    color: #fff;  
+    font-size: 35px;
+    font-family: SF-Pro-Text-bold;
+    padding-bottom: 10px;
+}
+.fourth-page-collection2 p{
+    color: #fff;  
+    font-size: 20px;
+    font-family: SF-Pro-Text-regular;
+    padding-bottom: 15px;
+}
+.fourth-page-collection2 .btn-1{
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    background-color: #0071E3;
+    font-family: SF-Pro-Text-regular;
+}
+.fourth-page-collection2 .btn-2{
+     margin-left: 15px;
+     font-size: 17px;
+     padding: 7px 18px;
+     border-radius: 25px;
+     margin-left: 7px;
+     margin-bottom: 25px;
+     color: #0066CC;
+     border: solid 1px #0066CC;
+     background-color: transparent;
+     font-family: SF-Pro-Text-regular;
+}
+.fourth-page-collection2 button:hover{
+     color: #ffff;
+     background-color: blue;
+}
+.fourth-page-div2-prt1{
+    height: 100%;
+    width: 48%;
+    background-image: url(https://www.apple.com/v/home/bt/images/promos/airpods-pro-2/promo_airpods_pro_2_avail__vkitqi3okwie_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fourth-page-div1-prt2{
+    height: 100%;
+    width: 48%;
+    background-image: url(https://www.apple.com/v/home/bt/images/promos/apple-watch-ultra-2/promo_apple_watch_ultra2_avail__dyawbjw9cowi_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fourth-page-collection1 .img-tag{
+   height: 60px;
+   padding-right: 15px;
+}
+.fourth-page-div1-prt3{
+    height: 100%;
+    width: 48%;
+    background-image: url(https://www.apple.com/v/home/bt/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fourth-page-div2-prt4{
+    height: 100%;
+    width: 48%;
+    background-image: url(https://www.apple.com/v/home/bt/images/promos/apple-card/promo_apple_card__5cm7draujpey_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#fifth-page{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bf/images/heroes/macbook-pro-14-and-16/hero_mbp_preorder__caf0s6im2nqq_large.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#fifth-page-collection{
+    padding-top: 70px;
+    text-align: center;
+    padding-left: 30px;
+}
+
+#fifth-page-collection h1{
+    font-family: SF-Pro-Text-bold;
+    font-size: 50px;
+}
+
+#fifth-page-collection h2{ 
+    font-size: 30px;
+    font-family: SF-Pro-Text-regular;
+    padding-bottom: 10px;
+}
+
+#fifth-page-collection h3{
+    font-family: SF-Pro-Text-regular;
+    font-size: 20px;
+    color: #8A8A8E;
+    padding-bottom: 20px;
+}
+#fifth-page-collection .btn-1{
+    font-size: 17px;
+    padding: 12px 26px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    background-color: #0071E3;
+    font-family: SF-Pro-Text-regular;
+}
+#fifth-page-collection .btn-2{
+     font-size: 17px;
+     padding: 12px 18px;
+     border-radius: 25px;
+     margin-left: 15px;
+     margin-bottom: 25px;
+     color: #0066CC;
+     border: solid 1px #0066CC;
+     background-color: transparent;
+     font-family: SF-Pro-Text-regular;
+}
+#fifth-page-collection button:hover{
+     color: #ffff;
+     background-color: blue;
+}
+
+#sixth-page{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+.sixth-page-div{
+    height: 100%;
+    width: 40%;
+    background-image: url(https://www.apple.com/v/home/be/images/heroes/apple-event-october/hero_event_startframe__e96wes5pf4i2_large.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#sixth-page-collection{
+    text-align: center;
+    padding-top: 80%;
+}
+#sixth-page-collection p{
+    color: #fff;
+    font-family: SF-Pro-Text-regular;
+    font-style: 20px;
+    padding-bottom: 20px;
+}
+#sixth-page-collection button{
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    background-color: #0071E3;
+    font-family: SF-Pro-Text-regular;
+}
+#sixth-page-collection button:hover{
+    color: #ffff;
+    background-color: blue;
+}
+#seventh-page{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bf/images/heroes/imac/hero_imac_preorder__btx8rdzktm02_large.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#seventh-page-collection{
+    text-align: center;
+    padding-top: 70px;
+}
+#seventh-page-collection h1{
+  font-family: SF-Pro-Text-bold;
+  font-size: 40px;
+  padding-bottom: 5px;
+}
+#seventh-page-collection h2{
+  font-family: SF-Pro-Text-regular;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+#seventh-page-collection h3{
+  font-family: SF-Pro-Text-bold;
+  font-size: 15px;
+  color: #918e8e;
+  padding-bottom: 20px;
+}
+
+#seventh-page-collection .btn-1{
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    background-color: #0071E3;
+    font-family: SF-Pro-Text-regular;
+}
+#seventh-page-collection .btn-2{
+     font-size: 15px;
+     padding: 10px 15px;
+     border-radius: 25px;
+     margin-left: 15px;
+     margin-bottom: 25px;
+     color: #0066CC;
+     border: solid 1px #0066CC;
+     background-color: transparent;
+     font-family: SF-Pro-Text-regular;
+}
+#seventh-page-collection button:hover{
+     color: #ffff;
+     background-color: blue;
+}
+#end-page{
+    height: 140%;
+    width: 100%;
+    background-color: #F5F5F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#end-page-paragraph{
+    height: 100%;
+    width: 70%;
+    background-color: #F5F5F7;
+}
+#end-page-paragraph p{
+    color: #757575;
+    font-size: 13px;
+    font-family: SF-Pro-Text-regular;
+    padding: 30px 0 40px 0;
+}
+#end-page-container{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+#end-page-container-list{
+    display: flex;
+    flex-direction: column;
+}
+#end-page-container-list h6{
+    font-size: 15px;
+    color: #000;
+    font-family: SF-Pro-Text-bold;
+}
+#end-page-container-list a{
+    color: #636060;
+    font-size: 11px;
+    font-family: SF-Pro-Text-regular;
+    text-decoration: none;
+}
+#end-page-container-list a:hover{
+    text-decoration: underline;
+}
+#end-page-container-list1{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#end-page-container-list1 h6{
+   font-size: 12px;
+   color: #000;
+   font-family: SF-Pro-Text-regular;
+}
+#end-page-container-list2 a{
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: SF-Pro-Text-regular;
+}
+#end-page-container-list2 a:hover{
+    text-decoration: underline;
+}
+#end-page-container-list3 a{
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    font-family: SF-Pro-Text-regular;
+}
+#end-page-container-list3 a:hover{
+    text-decoration: underline;
+}
